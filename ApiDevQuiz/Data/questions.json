@@ -1,7 +1,7 @@
 [
   {
     "Id": 1,
-    "Question": "Considerando as linguagens de programacao que tem recursos dinamicos, a linguagem que e totalmente processada no computador-cliente e denominada",
+    "Question": "Considerando as linguagens de programação que têm recursos dinâmicos, a linguagem que é totalmente processada no computador-cliente é denominada",
     "OptionA": "Java",
     "OptionB": "PHP (hypertext preprocessor)",
     "OptionC": "ASP (active server pages)",
@@ -11,32 +11,200 @@
   },
   {
     "Id": 2,
-    "Question": "Sobre Python e correto afirmar:",
-    "OptionA": "E uma linguagem compilada, ou seja, o codigo-fonte de um programa e lido pelo compilador, que cria um arquivo binario, executavel diretamente pelo hardware.",
-    "OptionB": "E uma linguagem fortemente tipada, ou seja, e preciso declarar variaveis e seus tipos.",
-    "OptionC": "Suporta funcionalidades comuns na orientacao a objetos: heranca, heranca multipla, polimorfismo, reflexao e introspeccao.",
-    "OptionD": "Uma lista em Python e um conjunto de valores acessados por um indice numerico, inteiro, comecando em 1. Assim como em outras linguagens, a lista pode armazenar apenas valores de um mesmo tipo",
-    "OptionE": "Uma String Python e uma sequencia imutavel, alocada estaticamente, com restricao de tamanho.",
+    "Question": "Sobre Python é correto afirmar:",
+    "OptionA": "É uma linguagem compilada, ou seja, o código-fonte de um programa é lido pelo compilador, que cria um arquivo binário, executável diretamente pelo hardware.",
+    "OptionB": "É uma linguagem fortemente tipada, ou seja, é preciso declarar variáveis e seus tipos.",
+    "OptionC": "Suporta funcionalidades comuns na orientação a objetos: herança, herança múltipla, polimorfismo, reflexão e introspecção.",
+    "OptionD": "Uma lista em Python é um conjunto de valores acessados por um índice numérico, inteiro, começando em 1. Assim como em outras linguagens, a lista pode armazenar apenas valores de um mesmo tipo",
+    "OptionE": "Uma String Python é uma sequência imutável, alocada estaticamente, com restrição de tamanho.",
     "CorrectAnswer": "c"
   },
   {
     "Id": 3,
-    "Question": "Sobre a linguagem de programacao PYTHON, marque a alternativa INCORRETA.",
-    "OptionA": "Python suporta a maioria das tecnicas da programacao orientada a objetos.",
-    "OptionB": "Python suporta e faz uso constante de tratamento de excecoes como uma forma de testar condicoes de erro e outros eventos inesperados no programa.",
-    "OptionC": "As funcoes sao definidas em Phyton utilizando a palavra chave def.",
-    "OptionD": "A separacao de blocos de codigo em Phyton e feita utilizando a indentacao de codigo.",
-    "OptionE": "O operador logico de conjuncao (\"e\", como em a e e &&.",
+    "Question": "Sobre a linguagem de programação PYTHON, marque a alternativa INCORRETA.",
+    "OptionA": "Python suporta a maioria das técnicas da programação orientada a objetos.",
+    "OptionB": "Python suporta e faz uso constante de tratamento de exceções como uma forma de testar condições de erro e outros eventos inesperados no programa.",
+    "OptionC": "As funções são definidas em Python utilizando a palavra chave def.",
+    "OptionD": "A separação de blocos de código em Python é feita utilizando a indentação de código.",
+    "OptionE": "O operador lógico de conjunção ('e', como em a e) é &&.",
     "CorrectAnswer": "e"
   },
   {
     "Id": 4,
-    "Question": "Em uma estrutura de selecao usada na PL/SQL, e uma forma INVALIDA para realizar um teste de condicao:",
+    "Question": "Em uma estrutura de seleção usada na PL/SQL, é uma forma INVÁLIDA para realizar um teste de condição:",
     "OptionA": "CASE",
     "OptionB": "LOOP",
     "OptionC": "IF-THEN",
     "OptionD": "IF-THEN-ELSE",
     "OptionE": "IF-THEN-ELSIF",
     "CorrectAnswer": "b"
+  },
+  {
+    "Id": 5,
+    "Question": "Sobre as listas em HTML é correto afirmar que as tags",
+    "OptionA": "<LI> e </LI> definem os elementos das listas ordenadas e não ordenadas.",
+    "OptionB": "<OL> e <UL> demarcam os elementos das listas ordenadas e não ordenadas.",
+    "OptionC": "<DL> e </DL> demarcam os elementos das listas de definição.",
+    "OptionD": "<DT> e </DT> identificam os termos a serem definidos.",
+    "OptionE": "<DD> e </DD> definem os termos presentes.",
+    "CorrectAnswer": "c"
+  },
+  {
+    "Id": 6,
+    "Question": "O tipo de dados float refere-se também aos dados do tipo",
+    "OptionA": "caractere.",
+    "OptionB": "inteiro.",
+    "OptionC": "booleano.",
+    "OptionD": "real.",
+    "OptionE": "local.",
+    "CorrectAnswer": "d"
+  },
+  {
+    "Id": 7,
+    "Question": "Na programação orientada a objetos, são características dos objetos:",
+    "OptionA": "As classes, os métodos e as mensagens.",
+    "OptionB": "A identidade, os atributos e as operações.",
+    "OptionC": "O encapsulamento, a herança e o polimorfismo.",
+    "OptionD": "A instanciação, a generalização e a especialização.",
+    "OptionE": "A classificação, a composição e a decomposição.",
+    "CorrectAnswer": "b"
+  },
+  {
+    "Id": 8,
+    "Question": "Em Java, os métodos podem apresentar uma série de características definidas a partir de palavras-chave utilizadas na sua definição. A palavra-chave 'public' indica que o método é acessível onde sua classe for e a palavra-chave 'static' especifica que o método pertence à classe como um todo e não a uma instância específica. Assinale a opção que NÃO apresenta uma palavra-chave que pode ser utilizada na definição de um método.",
+    "OptionA": "abstract",
+    "OptionB": "finally",
+    "OptionC": "native",
+    "OptionD": "synchronized",
+    "OptionE": "void",
+    "CorrectAnswer": "b"
+  },
+  {
+    "Id": 9,
+    "Question": "Um órgão federal disponibiliza serviços na Internet utilizando a plataforma ASP.NET, versão 3.5. Um dos objetivos da tecnologia LINQ dessa plataforma é",
+    "OptionA": "substituir, gradativamente, o AJAX.",
+    "OptionB": "simplificar o acesso a dados.",
+    "OptionC": "permitir tipagem dinâmica de variáveis.",
+    "OptionD": "realizar testes automatizados.",
+    "OptionE": "consumir web service genéricos.",
+    "CorrectAnswer": "b"
+  },
+  {
+    "Id": 10,
+    "Question": "Para o desenvolvimento de aplicações Web, qual item abaixo contém apenas frameworks/bibliotecas/plataformas que foram desenvolvidas ou que dependem de JavaScript ou TypeScript:",
+    "OptionA": "Node.js, CSS, Java.",
+    "OptionB": "React, Node.js, Scala.",
+    "OptionC": "Angular, React, Vue.js.",
+    "OptionD": "Angular, Node.js, Java.",
+    "OptionE": "Java AWT, Angular, Scala.",
+    "CorrectAnswer": "c"
+  },
+  {
+    "Id": 11,
+    "Question": "A programação estruturada é caracterizada por quais conceitos?",
+    "OptionA": "exceções, entrada e saída.",
+    "OptionB": "objeto, função e interação.",
+    "OptionC": "procedimento, função e argumento.",
+    "OptionD": "sequência, polimorfismo e hierarquia.",
+    "OptionE": "sequência, seleção e iteração.",
+    "CorrectAnswer": "e"
+  },
+  {
+    "Id": 12,
+    "Question": "NÃO é uma propriedade para fonte que se possa aplicar em uma folha de estilo CSS:",
+    "OptionA": "font-family.",
+    "OptionB": "font-variant.",
+    "OptionC": "font-style.",
+    "OptionD": "font-face.",
+    "OptionE": "font-size.",
+    "CorrectAnswer": "d"
+  },
+  {
+    "Id": 13,
+    "Question": "Em CSS, a propriedade background-image é usada para configurar uma imagem de fundo. Pode ser usada em JavaScript, com a seguinte sintaxe:",
+    "OptionA": "Background.Image.",
+    "OptionB": "backgroundImage.",
+    "OptionC": "background.image.",
+    "OptionD": "background_image.",
+    "OptionE": "background(imag.",
+    "CorrectAnswer": "b"
+  },
+  {
+    "Id": 14,
+    "Question": "Em relação ao JavaScript, não é correto afirmar que:",
+    "OptionA": "é uma linguagem script que só pode ser usada em páginas HTML.",
+    "OptionB": "proporciona aos desenvolvedores de páginas web uma linguagem de programação.",
+    "OptionC": "é uma linguagem interpretada.",
+    "OptionD": "pode ser usada para criar cookies.",
+    "OptionE": "pode adicionar interatividade nas páginas HTML.",
+    "CorrectAnswer": "a"
+  },
+  {
+    "Id": 15,
+    "Question": "São ferramentas de programação componentes do Microsoft Visual Studio 2008, EXCETO:",
+    "OptionA": "Visual C#.",
+    "OptionB": "Visual Basic.",
+    "OptionC": "Visual PHP.",
+    "OptionD": "Visual C++.",
+    "OptionE": "Visual Web Developer.",
+    "CorrectAnswer": "c"
+  },
+  {
+    "Id": 16,
+    "Question": "Na arquitetura .Net, um cache de tabelas em memória obtidas de um banco de dados relacional ou de um documento XML é",
+    "OptionA": "um DAL.",
+    "OptionB": "um DataSet.",
+    "OptionC": "uma Entidade de dados.",
+    "OptionD": "uma Entidade Externa.",
+    "OptionE": "um ClassSet.",
+    "CorrectAnswer": "b"
+  },
+  {
+    "Id": 17,
+    "Question": "Em uma reunião técnica sobre a construção de um sistema ASP.NET, um administrador de banco de dados recomendou que fosse utilizado Connection Pooling. Essa técnica é caracterizada por",
+    "OptionA": "verificar a carga do banco de dados antes de realizar consultas.",
+    "OptionB": "evitar ataques de SQL Injection em códigos C#.",
+    "OptionC": "impedir vazamento de memória em conexões de usuários.",
+    "OptionD": "permitir o reúso de conexões de banco de dados.",
+    "OptionE": "utilizar uma camada de ORM como o NHibernate.",
+    "CorrectAnswer": "d"
+  },
+  {
+    "Id": 18,
+    "Question": "Sobre os banco de dados NoSQL, assinale a afirmativa correta.",
+    "OptionA": "Bancos de dados NoSQL não podem ser indexados.",
+    "OptionB": "Bancos de dados NoSQL são considerados banco de dados relacionais.",
+    "OptionC": "Nos bancos de dados NoSQL devem ser definidos um esquema de dados fixo antes de qualquer operação.",
+    "OptionD": "São exemplos de bancos de dados NoSQL: MongoDB, Firebird, DynamoDB, SQLite, Microsoft Access e Azure Table Storage.",
+    "OptionE": "Os bancos de dados NoSQL usam diversos modelos para acessar e gerenciar dados, como documento, gráfico, chave-valor, em memória e, pesquisa.",
+    "CorrectAnswer": "e"
+  },
+  {
+    "Id": 19,
+    "Question": "Em bancos de dados, uma transação é um conjunto de operações delimitadas por um início e um fim. Iniciando quando se executa o primeiro comando SQL e terminando de acordo com as seguintes situações: (1) encerra a transação salvando permanentemente todas as alterações realizadas durante a transação. (2) encerra a transação descartando todas as alterações realizadas durante a transação. As operações em (1) e em (2) são conhecidas, respectivamente, por:",
+    "OptionA": "COMMIT e ROLLBACK.",
+    "OptionB": "COMMIT e REVOKE.",
+    "OptionC": "COMMIT e DROP.",
+    "OptionD": "SAVEPOINT e ROLLBACK.",
+    "OptionE": "SAVEPOINT e REVOKE.",
+    "CorrectAnswer": "a"
+  },
+  {
+    "Id": 20,
+    "Question": "Em uma tabela de Produtos, havia os campos Código, Nome, DataCompra, ValorPago e LocalCompra. O usuário dessa tabela precisa visualizar os dados de forma específica, e a quantidade de registros é enorme. A sequência correta, que mostra ao usuário os campos nome e data da compra dos produtos classificados por data de compra em ordem decrescente na linguagem SQL, é",
+    "OptionA": "Select Nome, DataCompra From Produtos Order By DataCompra Asc",
+    "OptionB": "Select Nome, DataCompra From Produtos Group By DataCompra Asc",
+    "OptionC": "Select Nome, DataCompra From Produtos Order By DataCompra Desc",
+    "OptionD": "Select Nome, DataCompra From Produtos Group By DataCompra Desc",
+    "CorrectAnswer": "c"
+  },
+  {
+    "Id": 21,
+    "Question": "Em uma tabela de Produtos, havia os campos Código, Nome, DataCompra, ValorPago e LocalCompra. O usuário dessa tabela precisa visualizar os dados de forma específica, e a quantidade de registros é enorme. A sequência correta, que mostra ao usuário os campos nome e data da compra dos produtos classificados por data de compra em ordem decrescente na linguagem SQL, é",
+    "OptionA": "Select Nome, DataCompra From Produtos Order By DataCompra Asc",
+    "OptionB": "Select Nome, DataCompra From Produtos Group By DataCompra Asc",
+    "OptionC": "Select Nome, DataCompra From Produtos Order By DataCompra Desc",
+    "OptionD": "Select Nome, DataCompra From Produtos Group By DataCompra Desc",
+    "CorrectAnswer": "c"
   }
 ]
