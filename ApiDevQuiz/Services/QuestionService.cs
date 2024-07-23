@@ -1,7 +1,6 @@
 ﻿using Newtonsoft.Json;
 using ApiDevQuiz.Models;
 
-
 namespace ApiDevQuiz.Services
 {
     public class QuestionService
@@ -12,13 +11,12 @@ namespace ApiDevQuiz.Services
         {
             try
             {
-                var path = Path.Combine(AppContext.BaseDirectory, "Data", "questions.json");
-                var json = File.ReadAllText(path);
-                _questions = JsonConvert.DeserializeObject<List<QuestionModel>>(json);Console.WriteLine($"Loaded {_questions.Count} questions.");
+                var json = File.ReadAllText("Data/questions.json");
+                _questions = JsonConvert.DeserializeObject<List<QuestionModel>>(json);
             }
             catch (Exception ex)
-            {                
-                Console.WriteLine($"Error reading questions: {ex.Message}");               
+            {
+                // Log the exception (configure logging as needed)
                 _questions = new List<QuestionModel>();
             }
         }
