@@ -13,7 +13,6 @@ namespace ApiDevQuiz.Services
             try
             {
                 var path = Path.Combine(AppContext.BaseDirectory, "Data", "questions.json");
-                Console.WriteLine($"Reading questions from: {path}");
                 var json = File.ReadAllText(path);
                 _questions = JsonConvert.DeserializeObject<List<QuestionModel>>(json);Console.WriteLine($"Loaded {_questions.Count} questions.");
             }
