@@ -1,0 +1,42 @@
+[
+  {
+    "Id": 1,
+    "Question": "Considerando as linguagens de programação que têm recursos dinâmicos, a linguagem que é totalmente processada no computador-cliente é denominada",
+    "OptionA": "Java",
+    "OptionB": "PHP (hypertext preprocessor)",
+    "OptionC": "ASP (active server pages)",
+    "OptionD": "CGI (Common Gateway Interface)",
+    "OptionE": "JavaScript",
+    "CorrectAnswer": "e"
+  },
+  {
+    "Id": 2,
+    "Question": "Sobre Python é correto afirmar:",
+    "OptionA": "É uma linguagem compilada, ou seja, o código-fonte de um programa é lido pelo compilador, que cria um arquivo binário, executável diretamente pelo hardware.",
+    "OptionB": "É uma linguagem fortemente tipada, ou seja, é preciso declarar variáveis e seus tipos.",
+    "OptionC": "Suporta funcionalidades comuns na orientação a objetos: herança, herança múltipla, polimorfismo, reflexão e introspecção.",
+    "OptionD": "Uma lista em Python é um conjunto de valores acessados por um índice numérico, inteiro, começando em 1. Assim como em outras linguagens, a lista pode armazenar apenas valores de um mesmo tipo",
+    "OptionE": "Uma String Python á uma sequência imutável, alocada estaticamente, com restrição de tamanho.",
+    "CorrectAnswer": "c"
+  },
+  {
+    "Id": 3,
+    "Question": "Sobre a linguagem de programação PYTHON, marque a alternativa INCORRETA.",
+    "OptionA": "Python suporta a maioria das técnicas da programação orientada a objetos.",
+    "OptionB": "Python suporta e faz uso constante de tratamento de exceções como uma forma de testar condições de erro e outros eventos inesperados no programa.",
+    "OptionC": "As funções são definidas em Phyton utilizando a palavra chave def.",
+    "OptionD": "A separação de blocos de código em Phyton é feita utilizando a indentação de código.",
+    "OptionE": "O operador lógico de conjunção (\"e\", como em a e é &&.",
+    "CorrectAnswer": "e"
+  },
+  {
+    "Id": 4,
+    "Question": "Em uma estrutura de seleção usada na PL/SQL, é uma forma INVÁLIDA para realizar um teste de condição:",
+    "OptionA": "CASE",
+    "OptionB": "LOOP",
+    "OptionC": "IF-THEN",
+    "OptionD": "IF-THEN-ELSE",
+    "OptionE": "IF-THEN-ELSIF",
+    "CorrectAnswer": "b"
+  }
+]
