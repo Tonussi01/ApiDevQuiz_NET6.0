@@ -13,34 +13,40 @@ namespace ApiDevQuiz.Services
         public QuestionService(ILogger<QuestionService> logger)
         {
             _logger = logger;
+            _questions = LoadQuestions();
+        }
+
+        private List<QuestionModel> LoadQuestions()
+        {
             try
             {
-                // Verifique o diretório atual
-                var currentDirectory = Directory.GetCurrentDirectory();
-                _logger.LogInformation($"Current directory: {currentDirectory}");
+                // Obter o diretório base da aplicação
+                var baseDirectory = AppContext.BaseDirectory;
+                _logger.LogInformation($"Base directory: {baseDirectory}");
 
-                var filePath = Path.Combine(currentDirectory, "Data/questions.json");
+                var filePath = Path.Combine(baseDirectory, "Data/questions.json");
                 _logger.LogInformation($"Attempting to read questions from: {filePath}");
 
                 if (!File.Exists(filePath))
                 {
                     _logger.LogError($"File not found: {filePath}");
-                    _questions = new List<QuestionModel>();
-                    return;
+                    return new List<QuestionModel>();
                 }
 
                 var json = File.ReadAllText(filePath);
-                _questions = JsonConvert.DeserializeObject<List<QuestionModel>>(json);
+                var questions = JsonConvert.DeserializeObject<List<QuestionModel>>(json);
 
-                if (_questions == null || !_questions.Any())
+                if (questions == null || !questions.Any())
                 {
                     _logger.LogWarning("No questions were deserialized from the file.");
                 }
+
+                return questions;
             }
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Error reading or deserializing the questions file.");
-                _questions = new List<QuestionModel>();
+                return new List<QuestionModel>();
             }
         }
 
