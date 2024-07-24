@@ -33,7 +33,7 @@ Para executar a API DevQuiz localmente, siga os passos abaixo:
 1. **Clone o repositório:**
 
    ```bash
-   git clone https://github.com/yourusername/ApiDevQuiz.git
+   git clone https://github.com/Tonussi01/ApiDevQuiz_NET6.0
 
   2. **Navegue até o diretório do projeto:**
      
